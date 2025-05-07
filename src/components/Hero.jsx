@@ -9,7 +9,7 @@ function Hero() {
         </p>
         <div className="flex gap-4">
           <a
-            href="https://github.com/YOUR_USERNAME"
+            href="https://github.com/ssilvernail3"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-blue-700 px-4 py-2 rounded hover:bg-blue-100 font-semibold transition"
@@ -17,7 +17,7 @@ function Hero() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/YOUR_USERNAME"
+            href="https://linkedin.com/in/shane-silvernail"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black text-white px-4 py-2 rounded hover:bg-gray-700 transition"

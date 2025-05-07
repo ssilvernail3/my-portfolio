@@ -25,7 +25,10 @@ function Resume() {
           className="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-500 transition"
         >
           Download Resume (PDF)
-        </a>
+            </a>
+        <a href="https://cybershane.dev" target="_blank" rel="noopener noreferrer" className="mt-4 text-sm text-gray-600 hover:underline block text-center">
+  Visit my portfolio at cybershane.dev
+</a>
       </section>
     );
   }

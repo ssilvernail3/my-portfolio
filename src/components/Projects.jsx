@@ -28,7 +28,10 @@ function Projects() {
         <h2 className="text-4xl font-bold text-center mb-10">Projects</h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
-            <div key={index} className="bg-white p-6 rounded shadow hover:shadow-lg transition">
+            <div
+            key={index}
+            className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-transform hover:-translate-y-1 border border-gray-200"
+          >
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="text-sm mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 text-xs text-blue-700 font-medium mb-4">

@@ -3,10 +3,9 @@ import { Github, Linkedin } from 'lucide-react';
 function Footer() {
   return (
     <footer className="bg-gray-900 text-white text-center px-6 py-8 mt-10">
-      <p className="text-sm mb-2">
-        &copy; {new Date().getFullYear()} Shane Silvernail. All rights reserved.
-      </p>
-
+     <p className="text-sm text-gray-300">
+  &copy; {new Date().getFullYear()} Shane Silvernail | <a href="https://cybershane.dev" className="hover:underline">cybershane.dev</a>. All rights reserved.
+</p>
       {/* Social Icons */}
       <div className="flex justify-center gap-6 mt-4">
         <a

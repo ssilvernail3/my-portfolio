@@ -1,11 +1,12 @@
 function Projects() {
     const projects = [
       {
-        title: 'Yearbook Encryption App',
+        title: 'PyScan Vulnerability Scanner',
         description:
-          'Designed a secure architecture for uploading and editing yearbook data, with encryption and cloud storage protections.',
-        tech: ['Python', 'AES', 'RSA', 'AWS'],
-        link: 'https://github.com/YOUR_USERNAME/yearbook-security',
+          'Built a multi-threaded Python tool to scan IPs for open ports, grab service banners, match known vulnerabilities, and export PDF/HTML reports.',
+        tech: ['Python', 'Socket', 'Threading', 'WeasyPrint', 'Jinja2'],
+        link: 'https://github.com/ssilvernail3/pyscan',
+        image: '/images/pyscan-preview.png'
       },
       {
         title: 'Snort Intrusion Detection Lab',
@@ -29,9 +30,18 @@ function Projects() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <div
-            key={index}
-            className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-transform hover:-translate-y-1 border border-gray-200"
-          >
+              key={index}
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-transform hover:-translate-y-1 border border-gray-200"
+            >
+              {/* ✅ ADD THIS IMAGE BLOCK */}
+              {project.image && (
+                <img
+                  src={project.image}
+                  alt={`${project.title} screenshot`}
+                  className="w-full h-40 object-cover rounded mb-4"
+                />
+              )}
+    
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="text-sm mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 text-xs text-blue-700 font-medium mb-4">

@@ -13,17 +13,17 @@ function Projects() {
     description:
       'Created a Marvel-themed superhero search app using Flask, JavaScript, and the Marvel API to return real-time character data with secure hash authentication and animated UI cards.',
     tech: ['JavaScript', 'Flask', 'Axios', 'PostgreSQL', 'Bootstrap'],
-    link: 'https://github.com/ssilvernail3/marvelpedia', // replace with live link if deployed
-    image: '/images/marvelpedia-preview.png' // make sure this image is available in /public/images
+    link: 'https://github.com/ssilvernail3/marvelpedia',
+    image: '/images/marvelpedia-preview.png'
   },
   {
-    title: 'File Encryption Tools Lab',
+    title: 'Portfolio Website',
     description:
-      'Used Microsoft’s built-in tools to configure and test NTFS file-level encryption, demonstrating best practices in access control and secure storage.',
-    tech: ['Windows', 'NTFS', 'EFS', 'Security Policies'],
-    image: '/images/encryption-preview.png'
+      'Built this personal portfolio using React and Tailwind CSS to showcase my projects and cybersecurity skills.',
+    tech: ['React', 'Tailwind CSS'],
+    link: 'https://github.com/ssilvernail3/my-portfolio'
   }
-];
+    ];
   
     return (
       <section id="projects" className="min-h-screen bg-gray-100 text-gray-900 px-6 py-20">

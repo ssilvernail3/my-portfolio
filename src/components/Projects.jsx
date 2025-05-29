@@ -1,28 +1,29 @@
 function Projects() {
     const projects = [
-      {
-        title: 'PyScan Vulnerability Scanner',
-        description:
-          'Built a multi-threaded Python tool to scan IPs for open ports, grab service banners, match known vulnerabilities, and export PDF/HTML reports.',
-        tech: ['Python', 'Socket', 'Threading', 'WeasyPrint', 'Jinja2'],
-        link: 'https://github.com/ssilvernail3/pyscan',
-        image: '/images/pyscan-preview.png'
-      },
-      {
-        title: 'Snort Intrusion Detection Lab',
-        description:
-          'Configured SNORT with custom rules to detect network threats and log suspicious activity during lab simulations.',
-        tech: ['Snort', 'Linux', 'Wireshark'],
-        link: 'https://github.com/YOUR_USERNAME/snort-lab',
-      },
-      {
-        title: 'Portfolio Website',
-        description:
-          'Built this personal portfolio using React and Tailwind CSS to showcase my projects and cybersecurity skills.',
-        tech: ['React', 'Tailwind CSS'],
-        link: 'https://github.com/ssilvernail3/my-portfolio',
-      },
-    ];
+  {
+    title: 'PyScan Vulnerability Scanner',
+    description:
+      'Built a multi-threaded Python tool to scan IPs for open ports, grab service banners, match known vulnerabilities, and export PDF/HTML reports.',
+    tech: ['Python', 'Socket', 'Threading', 'WeasyPrint', 'Jinja2'],
+    link: 'https://github.com/ssilvernail3/pyscan',
+    image: '/images/pyscan-preview.png'
+  },
+  {
+    title: 'MarvelPedia Character Explorer',
+    description:
+      'Created a Marvel-themed superhero search app using Flask, JavaScript, and the Marvel API to return real-time character data with secure hash authentication and animated UI cards.',
+    tech: ['JavaScript', 'Flask', 'Axios', 'PostgreSQL', 'Bootstrap'],
+    link: 'https://github.com/ssilvernail3/marvelpedia', // replace with live link if deployed
+    image: '/images/marvelpedia-preview.png' // make sure this image is available in /public/images
+  },
+  {
+    title: 'File Encryption Tools Lab',
+    description:
+      'Used Microsoft’s built-in tools to configure and test NTFS file-level encryption, demonstrating best practices in access control and secure storage.',
+    tech: ['Windows', 'NTFS', 'EFS', 'Security Policies'],
+    image: '/images/encryption-preview.png'
+  }
+];
   
     return (
       <section id="projects" className="min-h-screen bg-gray-100 text-gray-900 px-6 py-20">

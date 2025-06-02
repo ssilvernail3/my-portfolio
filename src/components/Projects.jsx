@@ -22,7 +22,8 @@ function Projects() {
       description:
         'Built this personal portfolio using React and Tailwind CSS to showcase my projects and cybersecurity skills.',
       tech: ['React', 'Tailwind CSS'],
-      link: 'https://github.com/ssilvernail3/my-portfolio'
+      link: 'https://github.com/ssilvernail3/my-portfolio',
+      image: '/images/portfolio-preview.png'
     }
   ];
 

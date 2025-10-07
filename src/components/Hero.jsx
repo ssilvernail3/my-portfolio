@@ -2,7 +2,7 @@ function Hero() {
     return (
         <section className="flex flex-col items-center justify-center h-screen bg-gradient-to-tr from-cyan-400 via-blue-500 to-indigo-600 text-white text-center px-4">
         <h1 className="text-5xl sm:text-6xl font-extrabold mb-4 drop-shadow-lg">
-          Shane Silvernail
+          Shane Silvernail, MS
         </h1>
         <p className="text-xl sm:text-2xl text-white/90 mb-6 max-w-xl">
           Cybersecurity Developer • Driven by Structure • Always Learning

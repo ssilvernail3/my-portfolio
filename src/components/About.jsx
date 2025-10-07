@@ -7,10 +7,10 @@ function About() {
             <p className="italic text-gray-500 mb-6"> "I believe strong systems start with clear standards."</p>
         <div className="max-w-3xl text-center text-lg leading-relaxed">
           <p className="mb-4">
-            Hi, I’m <strong>Shane Silvernail</strong> — a <strong>Disney Aspire
-          Graduate</strong> and <strong>Cybersecurity Professional</strong> with
+            Hi, I’m <strong>Shane Silvernail</strong> — a Disney Aspire
+          Graduate and Cybersecurity Professional with
           a Master of Science in Information Technology, specializing in
-          Cybersecurity, from <strong>Purdue University Global</strong>.</p>
+          Cybersecurity, from Purdue University Global.</p>
           <p className="mb-4">
             I’m passionate about helping organizations strengthen their security
           posture through governance, risk, and compliance (GRC) frameworks,

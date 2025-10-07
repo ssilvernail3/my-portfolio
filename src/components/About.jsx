@@ -7,10 +7,16 @@ function About() {
             <p className="italic text-gray-500 mb-6"> "I believe strong systems start with clear standards."</p>
         <div className="max-w-3xl text-center text-lg leading-relaxed">
           <p className="mb-4">
-            Hi, I’m <span className="font-semibold">Shane Silvernail</span>. I’m passionate about cybersecurity, especially the areas of compliance, structure, and protection. I believe in building secure systems from the ground up and making sure the details are never overlooked.
-          </p>
+            Hi, I’m <strong>Shane Silvernail</strong> — a <strong>Disney Aspire
+          Graduate</strong> and <strong>Cybersecurity Professional</strong> with
+          a Master of Science in Information Technology, specializing in
+          Cybersecurity, from <strong>Purdue University Global</strong>.
           <p className="mb-4">
-            I have a background in computer science and I'm currently pursuing my Master’s in Information Technology with a focus on Cybersecurity. I'm interested in helping organizations stay protected through strong policy, consistent practices, and a deep understanding of risk.
+            I’m passionate about helping organizations strengthen their security
+          posture through governance, risk, and compliance (GRC) frameworks,
+          threat analysis, and strategic policy development. My background
+          combines hands-on cybersecurity skills with a deep understanding of
+          IT infrastructure, risk management, and secure network design.
           </p>
           <p className="mb-4">
             I enjoy being the person who makes sure everything is running the way it should. Whether that means writing clean code, managing compliance requirements, or monitoring systems to keep out threats, I’m driven by the idea of keeping people and data safe.

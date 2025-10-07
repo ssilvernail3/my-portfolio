@@ -10,7 +10,7 @@ function About() {
             Hi, I’m <strong>Shane Silvernail</strong> — a <strong>Disney Aspire
           Graduate</strong> and <strong>Cybersecurity Professional</strong> with
           a Master of Science in Information Technology, specializing in
-          Cybersecurity, from <strong>Purdue University Global</strong>.
+          Cybersecurity, from <strong>Purdue University Global</strong>.</p>
           <p className="mb-4">
             I’m passionate about helping organizations strengthen their security
           posture through governance, risk, and compliance (GRC) frameworks,

@@ -34,7 +34,7 @@ function Projects() {
 
       links: [
         { label: 'Case Study (PDF)', href: '/assets/sterling-oakmont-case-study.pdf' },
-        { label: 'Network Diagram',   href: '/assets/sterling-oakmont-diagram.pdf' },
+        { label: 'Network Diagram',   href: '/assets/sterling-oakmont-network-diagram.pdf' },
         { label: 'Company Newsletter', href: '/assets/sterling-oakmont-newsletter.pdf' },
         { label: 'Policy Toolkit (PDF)', href: '/assets/sterling-oakmont-policy-toolkit.pdf' },
       ],

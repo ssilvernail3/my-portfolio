@@ -24,6 +24,31 @@ function Projects() {
       tech: ['React', 'Tailwind CSS'],
       link: 'https://github.com/ssilvernail3/my-portfolio',
       image: '/images/portfolio-preview.png'
+    },
+    {
+      title: 'Secure Network & GRC Assessment',
+      description:
+        '10-week engagement delivering segmented VLAN architecture, Cisco NGFW, endpoint protection, NIST CSF mapping, and a full policy toolkit (AUP, Password, IRP).',
+      tech: ['Network Security', 'GRC', 'NIST CSF', 'Cisco Firepower', 'Microsoft 365', 'AWS S3'],
+      links: [
+        {
+          label: 'Case Study (PDF)',
+          href: '/assets/sterling-oakmont-case-study.pdf'
+        },
+        {
+          label: 'Network Diagram',
+          href: '/assets/sterling-oakmont--network-diagram.pdf'
+        },
+        {
+          label: 'Company Newsletter',
+          href: '/assets/sterling-oakmont-newsletter.pdf'
+        },
+        {
+          label: 'Policy Toolkit (PDF)',
+          href: '/assets/sterling-oakmont-policy-toolkit.pdf'
+        },
+      ],
+      image: '/images/sterling-oakmont-diagram.png'
     }
   ];
 

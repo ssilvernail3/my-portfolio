@@ -30,23 +30,13 @@ function Projects() {
       description:
         '10-week engagement delivering segmented VLAN architecture, Cisco NGFW, endpoint protection, NIST CSF mapping, and a full policy toolkit (AUP, Password, IRP).',
       tech: ['Network Security', 'GRC', 'NIST CSF', 'Cisco Firepower', 'Microsoft 365', 'AWS S3'],
+
+
       links: [
-        {
-          label: 'Case Study (PDF)',
-          href: '/assets/sterling-oakmont-case-study.pdf'
-        },
-        {
-          label: 'Network Diagram',
-          href: '/assets/sterling-oakmont--network-diagram.pdf'
-        },
-        {
-          label: 'Company Newsletter',
-          href: '/assets/sterling-oakmont-newsletter.pdf'
-        },
-        {
-          label: 'Policy Toolkit (PDF)',
-          href: '/assets/sterling-oakmont-policy-toolkit.pdf'
-        },
+        { label: 'Case Study (PDF)', href: '/assets/sterling-oakmont-case-study.pdf' },
+        { label: 'Network Diagram',   href: '/assets/sterling-oakmont-diagram.pdf' },
+        { label: 'Company Newsletter', href: '/assets/sterling-oakmont-newsletter.pdf' },
+        { label: 'Policy Toolkit (PDF)', href: '/assets/sterling-oakmont-policy-toolkit.pdf' },
       ],
       image: '/images/sterling-oakmont-diagram.png'
     }
@@ -80,16 +70,21 @@ function Projects() {
               ))}
             </div>
 
-            <div className="flex gap-4 mt-4">
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm"
-              >
-                View Code
-              </a>
+            {/* Buttons */}
+            <div className="flex flex-wrap gap-3 mt-4">
+              {/* Only show View Code if a single repo link exists */}
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm"
+                >
+                  View Code
+                </a>
+              )}
 
+              {/* Only show Live Site if provided */}
               {project.live && (
                 <a
                   href={project.live}
@@ -99,6 +94,21 @@ function Projects() {
                 >
                   Live Site
                 </a>
+              )}
+
+              {/* NEW: Render multiple resource buttons if links[] exists */}
+              {Array.isArray(project.links) && project.links.length > 0 && (
+                project.links.map((l, i) => (
+                  <a
+                    key={i}
+                    href={l.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border border-gray-300 text-gray-800 px-3 py-2 rounded hover:border-blue-500 hover:text-blue-700 text-sm"
+                  >
+                    {l.label}
+                  </a>
+                ))
               )}
             </div>
           </div>

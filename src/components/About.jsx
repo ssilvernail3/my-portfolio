@@ -30,6 +30,7 @@ function About() {
                 <div className="flex flex-wrap justify-center gap-3 text-sm sm:text-base">
                     <span className="bg-gray-100 px-4 py-2 rounded shadow">JavaScript</span>
                     <span className="bg-gray-100 px-4 py-2 rounded shadow">Python</span>
+                    <span className="bg-gray-100 px-4 py-2 rounded shadow">Elastic</span>
                     <span className="bg-gray-100 px-4 py-2 rounded shadow">React</span>
                     <span className="bg-gray-100 px-4 py-2 rounded shadow">Linux</span>
                     <span className="bg-gray-100 px-4 py-2 rounded shadow">SQL</span>

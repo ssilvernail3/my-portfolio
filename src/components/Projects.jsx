@@ -29,7 +29,6 @@ function Projects() {
         'Created a Marvel-themed superhero search app using Flask, JavaScript, and the Marvel API to return real-time character data with secure hash authentication and animated UI cards.',
       tech: ['JavaScript', 'Flask', 'Axios', 'PostgreSQL', 'Bootstrap'],
       link: 'https://github.com/ssilvernail3/marvel',
-      live: 'https://marvelpedia.onrender.com',
       image: '/images/marvelpedia-preview.png'
     },
     {
